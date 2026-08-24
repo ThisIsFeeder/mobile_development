@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#6f86d9"/>
+    <stop offset="55%" stop-color="#5874cc"/>
+    <stop offset="100%" stop-color="#243777"/>
+  </linearGradient>
+  <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f8fbff"/>
+    <stop offset="55%" stop-color="#91b7ff"/>
+    <stop offset="100%" stop-color="#416bd8"/>
+  </linearGradient>
+  <linearGradient id="orb2" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#4e70d8"/>
+    <stop offset="100%" stop-color="#10255f"/>
+  </linearGradient>
+  <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#3e6fde"/>
+    <stop offset="100%" stop-color="#315bc4"/>
+  </linearGradient>
+</defs>
+
+<rect x="0" y="0" width="390" height="844" rx="34" fill="url(#bg)"/>
+<path d="M238 -20 C325 5 336 82 300 135 C270 178 262 211 284 248 C306 286 344 315 400 344 L400 -10 Z" fill="#dce6ff" opacity=".9"/>
+<path d="M260 45 C314 43 331 89 317 137 C307 173 285 199 286 227 C288 257 304 278 339 300" fill="none" stroke="#7d94e7" stroke-width="46" stroke-linecap="round" opacity=".95"/>
+<path d="M-10 286 C66 247 122 266 165 316 C199 354 187 397 149 436 C97 490 84 548 120 596 C147 631 180 653 221 671 L-10 671 Z" fill="#315dcc" opacity=".9"/>
+<path d="M-20 108 C38 149 76 129 101 85 C120 51 111 12 78 -15" fill="#172d6f" opacity=".96"/>
+<circle cx="248" cy="170" r="42" fill="url(#orb)"/>
+<circle cx="67" cy="564" r="33" fill="url(#orb)"/>
+<circle cx="172" cy="680" r="65" fill="url(#orb2)"/>
+<text x="195" y="357" font-family="Inter,Arial,sans-serif" font-size="31" font-weight="700" fill="#ffffff" text-anchor="middle">Welcome Back!</text><text x="195" y="402" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="500" fill="#ffffff" text-anchor="middle">Enter personal details to your</text><text x="195" y="424" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="500" fill="#ffffff" text-anchor="middle">employee account</text><rect x="0" y="760" width="390" height="84" rx="0" fill="#152650" stroke="none" stroke-width="0"/><rect x="194" y="754" width="196" height="90" rx="28" fill="#ffffff" stroke="none" stroke-width="0"/><text x="98" y="809" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle">Sign in</text><text x="292" y="809" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700" fill="#3d67c9" text-anchor="middle">Sign up</text></svg>

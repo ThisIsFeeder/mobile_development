@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#6f86d9"/>
+    <stop offset="55%" stop-color="#5874cc"/>
+    <stop offset="100%" stop-color="#243777"/>
+  </linearGradient>
+  <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f8fbff"/>
+    <stop offset="55%" stop-color="#91b7ff"/>
+    <stop offset="100%" stop-color="#416bd8"/>
+  </linearGradient>
+  <linearGradient id="orb2" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#4e70d8"/>
+    <stop offset="100%" stop-color="#10255f"/>
+  </linearGradient>
+  <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#3e6fde"/>
+    <stop offset="100%" stop-color="#315bc4"/>
+  </linearGradient>
+</defs>
+
+<rect x="0" y="0" width="390" height="250" rx="34" fill="url(#bg)"/>
+<path d="M238 -20 C325 5 336 82 300 135 C270 178 262 211 284 248 C306 286 344 315 400 344 L400 -10 Z" fill="#dce6ff" opacity=".9"/>
+<path d="M260 45 C314 43 331 89 317 137 C307 173 285 199 286 227 C288 257 304 278 339 300" fill="none" stroke="#7d94e7" stroke-width="46" stroke-linecap="round" opacity=".95"/>
+<path d="M-10 286 C66 247 122 266 165 316 C199 354 187 397 149 436 C97 490 84 548 120 596 C147 631 180 653 221 671 L-10 671 Z" fill="#315dcc" opacity=".9"/>
+<path d="M-20 108 C38 149 76 129 101 85 C120 51 111 12 78 -15" fill="#172d6f" opacity=".96"/>
+<circle cx="248" cy="170" r="42" fill="url(#orb)"/>
+<circle cx="67" cy="564" r="33" fill="url(#orb)"/>
+<circle cx="172" cy="680" r="65" fill="url(#orb2)"/>
+<circle cx="48" cy="70" r="56" fill="#142b68"/><text x="27" y="78" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="500" fill="#fff" text-anchor="middle">‹</text><text x="62" y="77" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="500" fill="#fff" text-anchor="start">Back</text><rect x="0" y="214" width="390" height="630" rx="34" fill="#fff" stroke="none" stroke-width="0"/><text x="195" y="287" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700" fill="#3262c8" text-anchor="middle">Welcome back</text><text x="38" y="342" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600" fill="#535b6c" text-anchor="start">Email</text><rect x="25" y="352" width="340" height="58" rx="12" fill="#fff" stroke="#d8dde6" stroke-width="1"/><text x="40" y="388" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#343944" text-anchor="start">sovannareach@example.com</text><text x="38" y="443" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="600" fill="#535b6c" text-anchor="start">Password</text><rect x="25" y="453" width="340" height="58" rx="12" fill="#fff" stroke="#d8dde6" stroke-width="1"/><text x="40" y="489" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#111827" text-anchor="start">••••••••••••</text><rect x="28" y="539" width="20" height="20" rx="3" fill="#3d6ed6" stroke="none" stroke-width="0"/><text x="38" y="555" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">✓</text><text x="58" y="555" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#7a808d" text-anchor="start">Remember me</text><text x="362" y="555" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600" fill="#3766ce" text-anchor="end">Forgot password?</text><rect x="25" y="590" width="340" height="62" rx="13" fill="url(#btn)" stroke="none" stroke-width="0"/><text x="195" y="628" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">Sign in</text><line x1="28" y1="703" x2="128" y2="703" stroke="#e7e9ef"/><line x1="262" y1="703" x2="362" y2="703" stroke="#e7e9ef"/><text x="195" y="707" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#8a909c" text-anchor="middle">Sign in with</text><text x="96" y="758" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#3269da" text-anchor="middle">f</text><text x="145" y="758" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#2ea7e0" text-anchor="middle">t</text><text x="194" y="758" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#4285f4" text-anchor="middle">G</text><text x="243" y="758" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#111" text-anchor="middle">●</text><text x="180" y="806" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#8a909c" text-anchor="middle">Don't have an account?</text><text x="293" y="806" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600" fill="#3766ce" text-anchor="middle">Sign up</text></svg>
