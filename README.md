@@ -1,16 +1,69 @@
 # login_signup
 
-A new Flutter project.
+A Flutter project.
 
-## Getting Started
+## Prerequisites
 
-This project is a starting point for a Flutter application.
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) installed and on your `PATH`
+- For **iOS**: a Mac with Xcode installed (App Store), plus [CocoaPods](https://guides.cocoapods.org/using/getting-started.html) (`sudo gem install cocoapods`)
+- For **Android**: [Android Studio](https://developer.android.com/studio) with the Android SDK, and a device or emulator
 
-A few resources to get you started if this is your first Flutter project:
+Run `flutter doctor` to check that everything is set up correctly before continuing.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository and open a terminal in the project root.
+2. Install dependencies:
+   ```
+   flutter pub get
+   ```
+
+## Running on Android
+
+1. Start an Android emulator (via Android Studio's Device Manager) or plug in a physical device with USB debugging enabled.
+2. Check the device is detected:
+   ```
+   flutter devices
+   ```
+3. Run the app:
+   ```
+   flutter run
+   ```
+   If you have multiple devices connected, specify one:
+   ```
+   flutter run -d <device-id>
+   ```
+
+## Running on iOS
+
+1. Install CocoaPods dependencies:
+   ```
+   cd ios
+   pod install
+   cd ..
+   ```
+2. Start an iOS Simulator (via Xcode > Open Developer Tool > Simulator) or connect a physical iPhone (requires an Apple Developer account signed into Xcode for on-device runs).
+3. Check the device is detected:
+   ```
+   flutter devices
+   ```
+4. Run the app:
+   ```
+   flutter run
+   ```
+   If you have multiple devices connected, specify one:
+   ```
+   flutter run -d <device-id>
+   ```
+
+## Troubleshooting
+
+- Run `flutter doctor -v` to diagnose missing tooling.
+- If iOS build errors mention pods being out of date, run `pod repo update` inside the `ios` folder, then `pod install` again.
+- If a connected device isn't listed, restart it or re-run `flutter devices`.
+
+## Learn more
+
+- [Flutter documentation](https://docs.flutter.dev/)
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter cookbook](https://docs.flutter.dev/cookbook)
